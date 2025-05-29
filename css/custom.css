@@ -758,11 +758,11 @@ body{
 
 .quick-links{
 	width: 88.5%;
-	margin-top: 40px;
+	/* margin-top: 40px; */
 	background-color: #E1E5EA;
 	border-radius: 13px;
 	padding: 15px 10px;
-	margin-bottom: 40px;
+	/* margin-bottom: 40px; */
 }
 
 .quick-links h2{
@@ -782,7 +782,8 @@ body{
 	/* grid-gap: 2.3%; */
     padding: 0px 1vw;
     /* background-color: #f0f0f0; */
-    width: 85vw;
+    /* width: 85vw; */
+	width: 90%;
 }
 
 .quick-links .links .link-item{
@@ -1057,7 +1058,8 @@ body{
 }
 
 .request-table{
-	width: 25%;
+	/* width: 25%; */
+	width: 49%;
     background-color: white;
     min-height: 380px;
     border-radius: 19px;

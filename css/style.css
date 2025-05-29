@@ -7126,6 +7126,13 @@ thead{
     justify-content: space-evenly;
 } */
 
+.flexxed-2{
+  width: 51%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
 .table-columns .column .request-title{
   display: flex;
   align-items: flex-start;
@@ -7138,18 +7145,25 @@ thead{
 }
 
 .table-columns .column .approver-column{
-    display: flex;
-    align-items: flex-end;
-    width: 40%;
-    justify-content: space-between;
-    padding-right: 20px;
-    padding-left: 0px;
-    box-sizing: border-box;
+  display: flex;
+  align-items: flex-end;
+  width: 40%;
+  justify-content: space-between;
+  padding-right: 20px;
+  padding-left: 0px;
+  box-sizing: border-box;
+  flex-direction: column;
+}
+
+.column .approver-column .date{
+    font-size: 1rem;
+    opacity: 0.7;
 }
 
 .approver{
-  margin-right: 10px;
+  /* margin-right: 10px; */
   font-size: 1.2rem;
+  margin-bottom: -10px;
 }
 
 .table-columns .column .approver-column a{
@@ -7923,3 +7937,46 @@ tr{
 
 }
 
+@media screen and (max-width: 1350px) {
+  .approver{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 1180px){
+  .flexxed{
+    flex-direction: column;
+  }
+}
+
+.middle-row{
+  width: 88.5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.middle-row .quick-links{
+  width: 49%;
+}
+.middle-row .announcement-sec{
+  width: 48%;
+  background-color: #0056A3;
+  color: white;
+  border-radius: 13px;
+  min-height: 233px;
+  padding: 30px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-row .announcement-sec h2{
+  color: white;
+  text-transform: uppercase;
+  font-family: 'Inter';
+  font-size: 1.6rem;
+  /* margin-left: 2vw; */
+}
