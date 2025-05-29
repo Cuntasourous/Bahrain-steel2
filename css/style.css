@@ -7386,6 +7386,7 @@ tr{
 .last-row{
   width: 88.5vw;
   margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .frequently-accessed{
@@ -7958,10 +7959,11 @@ tr{
 }
 
 .middle-row .quick-links{
-  width: 49%;
+  /* width: 49%; */
+  width: 100%;
 }
-.middle-row .announcement-sec{
-  width: 48%;
+.announcement-sec{
+  width: 73%;
   background-color: #0056A3;
   color: white;
   border-radius: 13px;
@@ -7971,12 +7973,20 @@ tr{
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 270px;
 }
 
-.middle-row .announcement-sec h2{
+.announcement-sec h2{
   color: white;
   text-transform: uppercase;
   font-family: 'Inter';
   font-size: 1.6rem;
   /* margin-left: 2vw; */
+}
+
+.footer-new{
+  background-image: url('../images/footer.jpeg');
+  height: 100%;
+  min-height: 300px;
+  width: 100vw;
 }

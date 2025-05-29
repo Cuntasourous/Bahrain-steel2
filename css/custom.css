@@ -962,11 +962,12 @@ body{
 
 .square-box{
 	width: 25%;
-    height: 380px;
+    /* height: 380px; */
     background-color: white;
     border-radius: 19px;
     box-sizing: border-box;
     padding: 25px;
+	min-height: 270px;	
 }
 
 .square-box .flex{
