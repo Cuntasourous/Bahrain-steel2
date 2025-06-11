@@ -418,14 +418,6 @@ h2 a,
 	color: #2a2f43
 }
 
-@media (max-width:600px) {
-	h2,
-	.h2 {
-		font-size: 29.52px !important;
-		line-height: 35.26px !important
-	}
-	
-}
 
 h3,
 .h3 {
@@ -760,7 +752,7 @@ body{
 	width: 88.5%;
 	/* margin-top: 40px; */
 	background-color: #E1E5EA;
-	border-radius: 13px;
+	border-radius: 10px;
 	padding: 15px 10px;
 	/* margin-bottom: 40px; */
 }
