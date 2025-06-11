@@ -198,8 +198,8 @@ thead{
 }
 
 .table-head{
-  background-color: #0056A3;
-  color: #E0E0E0;
+  /* background-color: #0056A3; */
+  /* color: #E0E0E0; */
   text-transform: uppercase;
   border-radius: 10px 10px 0px 0px;
   display: flex;
@@ -220,7 +220,7 @@ thead{
 }
 
 .table-head h3{
-  color: #E0E0E0;
+  /* color: #E0E0E0; */
   font-size: 1.2rem;
   font-weight: normal;
 }
@@ -318,7 +318,7 @@ thead{
 }
 
 .column .request-title .date{
-  color: #0056A3;
+  /* color: #0056A3; */
   font-weight: bold;
   margin-right: 5px;
 }
@@ -635,14 +635,13 @@ tr{
 }
 
 .documents-box a{
-  color: #21529B;
+  /* color: #21529B; */
   text-decoration: none;
   font-weight: 600;
   font-size: 1.25rem;
 }
 
 .documents-box a:hover{
-  color: #21529B;
   text-decoration: underline;
 }
 
@@ -745,11 +744,11 @@ tr{
   .status-bubble {
     width: 50%;
   }
-    .quick-links h2{
-        font-size: 1.7rem !important;
-        text-transform: uppercase;
-        font-size: 1.7rem;
-        letter-spacing: -0.4px;
+  .quick-links h2{
+    font-size: 1.7rem !important;
+    text-transform: uppercase;
+    font-size: 1.7rem;
+    letter-spacing: -0.4px;
   }
     .column .request-title .date {
       font-size: 1rem;
@@ -807,7 +806,7 @@ tr{
 }
 .announcement-sec{
   width: 73%;
-  background-color: #0056A3;
+  /* background-color: #0056A3; */
   color: white;
   border-radius: 10px;
   min-height: 233px;
@@ -885,7 +884,7 @@ body{
 }
 
 .wrapping .page-content .departments-menu .square{
-  background-color: #0055A5;
+  /* background-color: #0055A5; */
   width: 95px;
   height: 95px;
   display: flex;
@@ -899,7 +898,7 @@ body{
 }
 
 .wrapping .page-content .departments-menu .square:hover{
-  background-color: #004E8C;
+  /* background-color: #004E8C; */
 }
 
 .wrapping .page-content .departments-menu .square img{
@@ -918,7 +917,7 @@ body{
 }
 
 .wrapping .navbar{
-  background-color: #004E8C;
+  /* background-color: #004D94; */
   width: 100vw;
   height: 80px;
   display: flex;
@@ -1061,7 +1060,7 @@ body{
     transition: all 0.4s ease;
 }
 
-.buttons-flex . button:hover{
+.buttons-flex button:hover{
   background-color: #c8c8c8;
 }
 
@@ -1301,18 +1300,18 @@ body{
   padding: 1rem;
   border-bottom: none;
   font-size: 1.8rem;
-  color: #4183A6;
+  /* color: #4183A6; */
   letter-spacing: -0.5px;
 }
 
 .announcements-box {
-  background-color: #004C97;
-  color: white;
+  /* background-color: #004C97; */
+  /* color: white; */
   padding: 1rem;
   font-size: 0.95rem;
   line-height: 1.6;
   text-align: center;
-  border-top: 1px solid #ccc;
+  /* border-top: 1px solid #ccc; */
 }
 
 .announcements-box strong {
@@ -1354,8 +1353,8 @@ body{
 }
 
 .calendar-table td.selected {
-  background-color: #004C97;
-  color: white;
+  /* background-color: #004C97; */
+  /* color: white; */
   /* border-radius: 6px; */
   display: flex;
   align-items: center;
@@ -1455,7 +1454,7 @@ body{
 }
 
 .event-source {
-  color: #4183A6;
+  /* color: #4183A6; */
   font-size: 1.3rem;
   margin: 0;
   font-weight: bold;
@@ -1589,7 +1588,7 @@ body{
 
 .documents-header a {
   font-size: 14px;
-  color: #5E92B9;
+  /* color: #5E92B9; */
   text-decoration: none;
 }
 
@@ -1619,7 +1618,7 @@ body{
 }
 
 .document-card .doc-info .doc-source{
-    color: #0078d4;
+    /* color: #0078d4; */
     font-size: 1.15rem;
     margin: 0;
     font-weight: 600;
@@ -1627,7 +1626,7 @@ body{
 
 .document-card .doc-info .doc-title{
     margin: 0.2rem 0;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
     line-height: 100%;
     width: 95%;
@@ -1636,9 +1635,10 @@ body{
 
 .document-card .doc-info .doc-meta{
   font-size: 1rem;
-    color: #555;
-    margin: 0;
-    font-weight: bold;
+  color: #555;
+  margin: 0;
+  font-weight: bold;
+  line-height: 1rem;
 }
 
 .doc-info {
@@ -1673,8 +1673,8 @@ body{
   text-align: center;
 }
 .suggestion-btn {
-  background-color: #F0F0F0;
-  color: #000;
+  /* background-color: #F0F0F0;
+  color: #000; */
   border: none;
   border-radius: 20px;
   padding: 6px 16px;
@@ -1685,7 +1685,7 @@ body{
 }
 
 .suggestion-btn:hover {
-  background-color: #e0e0e0;
+  /* background-color: #e0e0e0; */
 }
 .tasks-section {
   padding: 1rem;
@@ -1709,7 +1709,7 @@ body{
 
 .suggestion-btn {
   font-size: 1.2rem;
-  background-color: #a9adae;
+  /* background-color: #a9adae; */
   height: 60px;
   display: flex;
   align-items: center;
@@ -1723,13 +1723,13 @@ body{
 }
 
 .suggestion-btn:hover {
-  background-color: #8f9293;
+  /* background-color: #8f9293; */
 }
 
 
 .time-in {
   font-size: 1.3rem;
-  background-color: #0056A8;
+  /* background-color: #0056A8; */
   height: 60px;
   display: flex;
   align-items: center;
@@ -1740,12 +1740,8 @@ body{
   transition: all 0.3s ease;
 }
 
-/* .time-in:hover{
-  background-color: #004687;
-}  */
-
 .task-box-container{
-  background-color: #0056A8;
+  /* background-color: #0056A8; */
   padding: 22px 20px;
   box-sizing: border-box;
   border-radius: 10px;
@@ -1761,8 +1757,8 @@ body{
 
 .card-title {
   /* background: #004C97; */
-  background: #a9adae;
-  color: white;
+  /* background: #a9adae; */
+  /* color: white; */
   padding: 0.5rem 1rem;
   border-radius: 8px 8px 0 0;
   margin: -1rem -1rem 1rem -1rem;
@@ -1789,7 +1785,7 @@ body{
 
 .task-id {
   font-size: 0.85rem;
-  color: #004C97;
+  /* color: #004C97; */
   margin: 0.3rem 0 0;
 }
 
@@ -1828,7 +1824,7 @@ body{
 }
 
 .event-div .events-header a{
-    color: #4183A6;
+    /* color: #4183A6; */
     font-weight: 600;
 }
 
@@ -1843,19 +1839,19 @@ body{
 }
 
 .vote-box .btn-container button{
-    background-color: #004C97;
-    color: white;
-    border: none;
-    padding: 0.6rem 1.8rem;
-    border-radius: 20px;
-    cursor: pointer;
-    font-weight: normal;
-    font-size: 1.5rem;
-    transition: all 0.4s ease;
+  /* background-color: #004C97; */
+  /* color: white; */
+  border: none;
+  padding: 0.6rem 1.8rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-weight: normal;
+  font-size: 1.5rem;
+  transition: all 0.4s ease;
 }
 
 .vote-box .btn-container button:hover{
-  background-color: #004687;
+  /* background-color: #004687; */
 }
 
 .people-box{
@@ -1983,6 +1979,7 @@ body{
     height: 250px;
   }
   .flexxed-2{
+    /* width: 98%; */
     width: 94%;
     display: flex;
     align-items: flex-start;
@@ -1997,7 +1994,7 @@ body{
   }
   .last-row {
     width: 88.5vw;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 0px;
   }
   .announcement-sec {
