@@ -2504,3 +2504,27 @@ body{
     margin-top: 0px;
   }
 }
+
+.task-card-link-grey .task-card{
+  transition: all 0.3s ease;
+}
+
+.task-card-link-grey:hover .task-card{
+  box-shadow: rgba(138, 138, 138, 0.578) 0px 7px 29px 0px;
+}
+
+.task-card-link-white .task-card{
+  transition: all 0.3s ease;
+}
+
+.task-card-link-white:hover .task-card{
+  box-shadow: rgba(255, 255, 255, 0.578) 0px 7px 29px 0px;
+}
+
+.task-card-link-grey .request-table{
+  transition: all 0.3s ease;
+}
+
+.task-card-link-grey:hover .request-table{
+  box-shadow: rgba(138, 138, 138, 0.578) 0px 7px 29px 0px;
+}
